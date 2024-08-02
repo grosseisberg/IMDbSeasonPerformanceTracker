@@ -15,7 +15,7 @@ String tvShowId = "tt0944947";
 Execute the Main class. After running the program, a graph of IMDb ratings across seasons for the specified TV show will be generated and saved in the src/main/resources/Charts directory.
 
 For example, below is the graph for "Game of Thrones," which visually represents the show's fluctuating ratings across its seasons.
-<img src="https://github.com/user-attachments/assets/e815efa9-60c4-42d5-bac1-ed2f2a50100f" alt="tt0944947_chart" width="600">
+![tt0944947_chart](https://github.com/user-attachments/assets/206fb29b-fc05-4a5e-9a8f-67c882f8c298)
 
 
 With this tool, you can easily track the performance of your favorite TV shows across different seasons.
