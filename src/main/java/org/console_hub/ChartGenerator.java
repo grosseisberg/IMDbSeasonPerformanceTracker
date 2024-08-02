@@ -10,7 +10,6 @@ import org.jfree.chart.renderer.category.LineAndShapeRenderer;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.chart.labels.StandardCategoryItemLabelGenerator;
-
 import java.awt.*;
 import java.text.DecimalFormat;
 import java.util.List;
@@ -37,12 +36,10 @@ public class ChartGenerator {
 
         CategoryPlot plot = (CategoryPlot) chart.getPlot();
 
-        // Y ekseni ayarları
         NumberAxis rangeAxis = (NumberAxis) plot.getRangeAxis();
         rangeAxis.setRange(0.0, 10.0);
         rangeAxis.setTickUnit(new NumberTickUnit(1.0));
 
-        // Grafik stilini güzelleştirme
         chart.setBackgroundPaint(Color.white);
         plot.setBackgroundPaint(new Color(230, 230, 250));
         plot.setDomainGridlinePaint(Color.white);
@@ -53,7 +50,6 @@ public class ChartGenerator {
         renderer.setSeriesStroke(0, new BasicStroke(2.0f));
         renderer.setDefaultShapesVisible(true);
 
-        // Nokta değerlerini gösterme
         renderer.setDefaultItemLabelsVisible(true);
         renderer.setDefaultItemLabelGenerator(new StandardCategoryItemLabelGenerator("{2}", new DecimalFormat("0.00")));
 

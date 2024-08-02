@@ -2,7 +2,6 @@ package org.console_hub;
 
 import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
